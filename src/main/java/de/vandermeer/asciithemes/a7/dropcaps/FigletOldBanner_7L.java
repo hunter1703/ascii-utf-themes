@@ -310,7 +310,7 @@ public class FigletOldBanner_7L implements TA_DropCaps {
 	}
 
 	@Override
-	public Object getDescription() {
+	public String getDescription() {
 		return "DropCap library based on Figlet font 'oldbanner', 6 line characters - see http://www.jave.de/figlet/fonts/details/oldbanner.html";
 	}
 }

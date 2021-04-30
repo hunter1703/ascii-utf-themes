@@ -340,7 +340,7 @@ public class FigletRoman implements TA_DropCaps {
 	}
 
 	@Override
-	public Object getDescription() {
+	public String getDescription() {
 		return "DropCap library based on Figlet font 'roman' - see http://www.jave.de/figlet/fonts/details/roman.html";
 	}
 

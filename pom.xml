@@ -66,6 +66,19 @@
 		<mp.project.url>https://github.com/vdmeer/ascii-utf-themes</mp.project.url>
     </properties>
 
+	<repositories>
+		<repository>
+			<id>
+				hunter1703
+			</id>
+			<name>
+				skb-java-interfaces
+			</name>
+			<url>
+				https://github.com/hunter1703/skb-java-interfaces/tree/jar
+			</url>
+		</repository>
+	</repositories>
     <!--
       Developers
       -->
@@ -93,12 +106,11 @@
     </developers>
 
     <dependencies>
-        <dependency>
-            <groupId>de.vandermeer</groupId>
-            <artifactId>skb-interfaces</artifactId>
-            <version>0.0.1</version>
-            <scope>compile</scope>
-        </dependency>
+		<dependency>
+			<groupId>de.vandermeer</groupId>
+			<artifactId>skb-interfaces</artifactId>
+			<version>0.0.3</version>
+		</dependency>
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
